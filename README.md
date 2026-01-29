@@ -1,44 +1,69 @@
-Automated Marketing Analytics Pipeline
+📊 Automated Marketing Analytics Pipeline
 
-Pipeline automatizado en Python para analizar campañas de marketing digital, desde datos crudos hasta reporte final y visualización.
+Pipeline automatizado en Python para analizar campañas de marketing digital, transformando datos crudos en KPIs accionables, visualizaciones comparativas y un reporte final listo para la toma de decisiones.
 
-🧩 Problema
+🧩 Problema de Negocio
 
-Las campañas de marketing generan grandes volúmenes de datos que suelen analizarse de forma manual, lo que:
+Las campañas de marketing digital generan grandes volúmenes de datos provenientes de múltiples canales (por ejemplo, Google Ads y Meta Ads).
+En muchos equipos, el análisis de estos datos se realiza de forma manual, lo que:
 
-consume tiempo,
+Consume tiempo operativo
 
-aumenta el riesgo de errores,
+Incrementa el riesgo de errores
 
-dificulta la toma de decisiones basada en KPIs.
+Dificulta el seguimiento consistente de KPIs
+
+Retrasa la toma de decisiones estratégicas
 
 💡 Hipótesis
 
-Si se automatiza el proceso de análisis de campañas:
+La automatización del análisis de campañas permite:
 
-se reduce el tiempo de análisis,
+Reducir significativamente el tiempo de análisis
 
-se mejora la consistencia de los resultados,
+Mejorar la consistencia y confiabilidad de los KPIs
 
-se facilita la identificación de los canales más efectivos.
+Facilitar la identificación de los canales y campañas más eficientes
 
-🎯 Objetivos
+🎯 Objetivos del Proyecto
 
 Automatizar la limpieza y validación de datos de campañas
 
-Calcular KPIs clave de performance
+Calcular KPIs clave de performance de marketing
 
 Generar visualizaciones comparativas por canal
 
-Exportar un reporte final listo para toma de decisiones
+Exportar automáticamente un reporte final en Excel
 
-🔄 Flujo del proyecto
+🔄 Flujo del Pipeline
 
-Lectura de datos de campañas
+Lectura de datos de campañas (datasets simulados)
 
-Limpieza y validación
+Limpieza y validación:
+
+Tratamiento de valores nulos
+
+Control de divisiones por cero (CTR, ROI)
+
+Validación de métricas negativas
 
 Cálculo de KPIs:
+
+CTR (Click Through Rate)
+
+CPC (Cost Per Click)
+
+CPA (Cost Per Acquisition)
+
+ROI (Return on Investment)
+
+Agregación de métricas por canal
+
+Generación de visualizaciones comparativas
+
+Exportación automática del reporte en Excel
+
+📊 KPIs Analizados
 
 CTR
 
@@ -48,11 +73,9 @@ CPA
 
 ROI
 
-Generación de gráficos
+Los KPIs se calculan de forma agregada por canal para facilitar el análisis comparativo y la toma de decisiones.
 
-Exportación automática de reporte en Excel
-
-🛠️ Tecnologías
+🛠️ Tecnologías Utilizadas
 
 Python
 
@@ -64,10 +87,14 @@ Matplotlib
 
 Excel
 
-📦 Output
+📦 Output del Proyecto
 
-KPIs agregados por canal
+Tabla de KPIs agregados por canal
 
-Gráficos de performance (CTR, CPA, ROI)
+Gráficos de performance comparativa (CTR, CPA, ROI)
 
-Reporte Excel automatizado
+Reporte Excel automatizado y reproducible
+
+🏁 Conclusión
+
+Este proyecto demuestra cómo la automatización del análisis de marketing permite pasar de procesos manuales a un pipeline reproducible, reduciendo errores y habilitando decisiones basadas en datos de forma más ágil y consistente.
