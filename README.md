@@ -4,8 +4,7 @@ Pipeline automatizado en Python para analizar campañas de marketing digital, tr
 
 🧩 Problema de Negocio
 
-Las campañas de marketing digital generan grandes volúmenes de datos provenientes de múltiples canales (por ejemplo, Google Ads y Meta Ads).
-En muchos equipos, el análisis de estos datos se realiza de forma manual, lo que:
+Las campañas de marketing digital generan grandes volúmenes de datos provenientes de múltiples canales (por ejemplo, Google Ads y Meta Ads). En muchos equipos, el análisis de estos datos se realiza de forma manual, lo que:
 
 Consume tiempo operativo
 
@@ -39,7 +38,7 @@ Exportar automáticamente un reporte final en Excel
 
 Lectura de datos de campañas (datasets simulados)
 
-Limpieza y validación:
+Limpieza y validación de datos:
 
 Tratamiento de valores nulos
 
@@ -73,7 +72,7 @@ CPA
 
 ROI
 
-Los KPIs se calculan de forma agregada por canal para facilitar el análisis comparativo y la toma de decisiones.
+Los KPIs se calculan de forma agregada por canal para facilitar el análisis comparativo y la toma de decisiones de negocio.
 
 🛠️ Tecnologías Utilizadas
 
@@ -91,9 +90,19 @@ Excel
 
 Tabla de KPIs agregados por canal
 
-Gráficos de performance comparativa (CTR, CPA, ROI)
+Gráficos comparativos de performance (CTR, CPA, ROI)
 
 Reporte Excel automatizado y reproducible
+
+🧭 Casos de Uso
+
+Este pipeline puede adaptarse fácilmente para:
+
+Análisis de campañas reales de Google Ads, Meta Ads u otras plataformas
+
+Automatización de reporting periódico (semanal o mensual)
+
+Soporte a decisiones de inversión y optimización de presupuesto
 
 🏁 Conclusión
 
