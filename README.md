@@ -166,3 +166,13 @@ Este proyecto demuestra cómo un pipeline automatizado en Python + SQL + Power B
 La solución reduce tiempos operativos, mejora la calidad de los KPIs y habilita una toma de decisiones más rápida y estratégica, replicando un flujo de trabajo utilizado en entornos profesionales de Data Analytics y Business Intelligence.
 Este proyecto demuestra cómo un pipeline automatizado en Python + SQL + Power BI permite transformar datos crudos de marketing en información confiable y accionable.
 La solución reduce tiempos operativos, mejora la calidad de los KPIs y habilita una toma de decisiones más rápida y estratégica, replicando un flujo de trabajo utilizado en entornos profesionales de Data Analytics y Business Intelligence.
+
+🧱 Automatización y Escalabilidad (Propuesta Conceptual)
+
+El pipeline fue desarrollado de forma modular en Python, permitiendo su escalabilidad y futura automatización.
+
+En un entorno productivo, el flujo podría ejecutarse de forma programada mediante herramientas como cron o Apache Airflow, disparando el procesamiento cada vez que se actualicen los datasets de campañas.
+
+Asimismo, el proyecto es compatible con un despliegue en la nube (AWS o GCP), permitiendo centralizar el procesamiento, automatizar el reporting y facilitar la integración con dashboards de visualización como Power BI o Looker Studio.
+
+Esta automatización no fue implementada en esta versión del proyecto por tratarse de un caso académico, pero la arquitectura fue pensada para soportar este tipo de extensiones.
