@@ -1,10 +1,10 @@
 📊 Automated Marketing Analytics Pipeline
 
-Pipeline automatizado en Python para analizar campañas de marketing digital, transformando datos crudos en KPIs accionables, visualizaciones comparativas y un reporte final listo para la toma de decisiones.
+Pipeline end-to-end automatizado para el análisis de campañas de marketing digital, que transforma datos crudos en KPIs accionables, los estructura en un modelo analítico en SQL y los visualiza en un dashboard interactivo en Power BI para la toma de decisiones estratégicas.
 
 🧩 Problema de Negocio
 
-Las campañas de marketing digital generan grandes volúmenes de datos provenientes de múltiples canales (por ejemplo, Google Ads y Meta Ads). En muchos equipos, el análisis de estos datos se realiza de forma manual, lo que:
+Las campañas de marketing digital generan grandes volúmenes de datos provenientes de múltiples canales (Google Ads, Meta Ads, Email, SEO, entre otros). En muchos equipos, el análisis de estos datos se realiza de forma manual, lo que:
 
 Consume tiempo operativo
 
@@ -24,21 +24,27 @@ Mejorar la consistencia y confiabilidad de los KPIs
 
 Facilitar la identificación de los canales y campañas más eficientes
 
+Centralizar la información para análisis histórico y comparativo
+
 🎯 Objetivos del Proyecto
 
 Automatizar la limpieza y validación de datos de campañas
 
 Calcular KPIs clave de performance de marketing
 
-Generar visualizaciones comparativas por canal
+Preparar un modelo de datos analítico en SQL
 
-Exportar automáticamente un reporte final en Excel
+Generar visualizaciones interactivas en Power BI
 
-🔄 Flujo del Pipeline
+Facilitar la toma de decisiones basada en datos
 
-Lectura de datos de campañas (datasets simulados)
+🔄 Flujo del Pipeline (Arquitectura End-to-End)
 
-Limpieza y validación de datos:
+Lectura de datos de campañas
+
+Datasets simulados representando múltiples canales y campañas
+
+Limpieza y validación de datos en Python
 
 Tratamiento de valores nulos
 
@@ -46,7 +52,9 @@ Control de divisiones por cero (CTR, ROI)
 
 Validación de métricas negativas
 
-Cálculo de KPIs:
+Estandarización de formatos
+
+Cálculo de KPIs en Python
 
 CTR (Click Through Rate)
 
@@ -56,11 +64,35 @@ CPA (Cost Per Acquisition)
 
 ROI (Return on Investment)
 
-Agregación de métricas por canal
+Exportación de datos procesados a SQL
 
-Generación de visualizaciones comparativas
+Persistencia de datos limpios y confiables
 
-Exportación automática del reporte en Excel
+Modelado analítico en SQL
+
+Creación de tablas separadas:
+
+Campaña
+
+Canal
+
+Fecha
+
+Fact_Marketing_Performance
+
+Modelo tipo estrella, optimizado para BI
+
+Integración con Power BI
+
+Conexión directa a SQL
+
+Construcción de métricas y visualizaciones
+
+Segmentadores por campaña, canal y fecha
+
+Visualización y análisis final
+
+Dashboard interactivo listo para análisis ejecutivo
 
 📊 KPIs Analizados
 
@@ -72,27 +104,49 @@ CPA
 
 ROI
 
-Los KPIs se calculan de forma agregada por canal para facilitar el análisis comparativo y la toma de decisiones de negocio.
+Ingresos Totales
+
+Costos Totales
+
+Rentabilidad por canal y campaña
+
+Los KPIs se calculan y analizan de forma agregada para facilitar comparaciones y decisiones de inversión.
+
+📈 Principales Insights del Dashboard
+
+Alta rentabilidad general de las campañas, con ROI positivo en la mayoría de los canales
+
+Google Ads y Facebook Ads destacan como los canales más eficientes y con mayor generación de ingresos
+
+Canales secundarios (Email, SEO, Instagram, LinkedIn Ads) presentan oportunidades claras de optimización
+
+Existencia de variación temporal y estacionalidad en los ingresos
+
+Las campañas de remarketing muestran mejor eficiencia de impacto frente a campañas de alcance frío
 
 🛠️ Tecnologías Utilizadas
 
-Python
+Python (automatización y limpieza de datos)
 
-Pandas
+Pandas & NumPy (procesamiento y cálculos)
 
-NumPy
+SQL (persistencia y modelado analítico)
 
-Matplotlib
+Power BI (visualización y análisis)
 
-Excel
+Matplotlib (visualizaciones exploratorias)
 
 📦 Output del Proyecto
 
-Tabla de KPIs agregados por canal
+Tablas analíticas normalizadas en SQL
 
-Gráficos comparativos de performance (CTR, CPA, ROI)
+Tabla fact de performance de marketing
 
-Reporte Excel automatizado y reproducible
+Dashboard interactivo en Power BI
+
+KPIs listos para seguimiento ejecutivo
+
+Pipeline reproducible y escalable
 
 🧭 Casos de Uso
 
@@ -100,10 +154,15 @@ Este pipeline puede adaptarse fácilmente para:
 
 Análisis de campañas reales de Google Ads, Meta Ads u otras plataformas
 
-Automatización de reporting periódico (semanal o mensual)
+Automatización de reporting semanal o mensual
 
-Soporte a decisiones de inversión y optimización de presupuesto
+Integración con APIs reales de marketing digital
+
+Optimización de presupuestos y estrategias de adquisición
 
 🏁 Conclusión
 
-Este proyecto demuestra cómo la automatización del análisis de marketing permite pasar de procesos manuales a un pipeline reproducible, reduciendo errores y habilitando decisiones basadas en datos de forma más ágil y consistente.
+Este proyecto demuestra cómo un pipeline automatizado en Python + SQL + Power BI permite transformar datos crudos de marketing en información confiable y accionable.
+La solución reduce tiempos operativos, mejora la calidad de los KPIs y habilita una toma de decisiones más rápida y estratégica, replicando un flujo de trabajo utilizado en entornos profesionales de Data Analytics y Business Intelligence.
+Este proyecto demuestra cómo un pipeline automatizado en Python + SQL + Power BI permite transformar datos crudos de marketing en información confiable y accionable.
+La solución reduce tiempos operativos, mejora la calidad de los KPIs y habilita una toma de decisiones más rápida y estratégica, replicando un flujo de trabajo utilizado en entornos profesionales de Data Analytics y Business Intelligence.
